@@ -10,11 +10,14 @@ class GameChannel < ApplicationCable::Channel
 
   def play_move(data)
     game = Game.find(params[:game_id])
-    game.turn = if game.turn :white
+
+    puts game.turn
+    game.turn = if game.turn == :white
         :black
       else
         :white
       end
+
     game.state = Game.states[data["state"]] if data["state"]
     game.fen = data["fen"]
     game.pgn = data["pgn"]
