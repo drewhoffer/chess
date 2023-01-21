@@ -175,6 +175,16 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+chess.js@^1.0.0-beta.2:
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-1.0.0-beta.2.tgz#ace0d3e4c932a09d8561aff4c875e00265262cd5"
+  integrity sha512-B8G0PpTTUWvc5vRZDHmV9U+2i5+N583o+irxZwVNIVleXUBrkZC1TEdp6kMsnEs/QmhOHbKrmAr+8nz7zZOs6g==
+
+chessboardjs@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/chessboardjs/-/chessboardjs-0.0.1.tgz#106e112dba6cc0dcdcf75472a29212c304ff564e"
+  integrity sha512-VK8mGqWQ4fk3rKre5T17F9yIxJRP/L+oS29zXL0nuhQfY3rAoKcdyPZziR2S7AfNhqPL45VmdhdspcAFR9CXww==
+
 "chokidar@>=3.0.0 <4.0.0":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
